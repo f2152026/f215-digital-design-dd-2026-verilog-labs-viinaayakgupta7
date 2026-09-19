@@ -3,7 +3,7 @@
 // Exactly ONE of the two instantiations below should be uncommented at a
 // time. Comment out the other one, save, and re-run the simulation.
 
-module DUT (
+module DUT1 (
   input  I0,
   input  I1,
   input  S,

@@ -9,14 +9,11 @@ module mux_beh (
   input       I0,
   input       I1,
   input       S,
-  output wire Y
+  output reg Y
 );
 
   always @(*) begin
-    if (S)
-      Y = I1;
-    else
-      Y = I0;
+    Y = S ? I1 : I0 ;
   end
 
 endmodule
